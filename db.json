@@ -1,0 +1,52 @@
+{
+  "api_status": "SUCCESS",
+  "status_code": "200",
+  "total_registrations": "100",
+  "current_week_total_regs": "30",
+  "data": {
+    "users": [
+      {
+        "name": "Test Name 1",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "false"
+      },
+      {
+        "name": "Test Name 2",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "false"
+      },
+      {
+        "name": "Test Name 3",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "true"
+      },
+      {
+        "name": "Test Name 4",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "false"
+      },
+      {
+        "name": "Test Name 5",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "true"
+      },
+      {
+        "name": "Test Name 6",
+        "nationalId": "12345678",
+        "phone": "86261",
+        "date": "2018-05-28 18:24:22",
+        "cancelled_by_lead": "false"
+      }      
+    ]
+  }
+}
