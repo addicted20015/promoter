@@ -1,52 +1,86 @@
 {
-  "api_status": "SUCCESS",
-  "status_code": "200",
-  "total_registrations": "100",
-  "current_week_total_regs": "30",
-  "data": {
-    "users": [
-      {
-        "name": "Test Name 1",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "false"
-      },
-      {
-        "name": "Test Name 2",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "false"
-      },
-      {
-        "name": "Test Name 3",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "true"
-      },
-      {
-        "name": "Test Name 4",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "false"
-      },
-      {
-        "name": "Test Name 5",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "true"
-      },
-      {
-        "name": "Test Name 6",
-        "nationalId": "12345678",
-        "phone": "86261",
-        "date": "2018-05-28 18:24:22",
-        "cancelled_by_lead": "false"
-      }      
-    ]
+  "activity": {
+    "api_status": "SUCCESS",
+    "status_code": "200",
+    "total_registrations": "100",
+    "current_week_total_regs": "30",
+    "data": {
+      "users": [
+        {
+          "name": "Test Name 1",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "false"
+        },
+        {
+          "name": "Test Name 2",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "false"
+        },
+        {
+          "name": "Test Name 3",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "true"
+        },
+        {
+          "name": "Test Name 4",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "false"
+        },
+        {
+          "name": "Test Name 5",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "true"
+        },
+        {
+          "name": "Test Name 6",
+          "nationalId": "12345678",
+          "phone": "86261",
+          "date": "2018-05-28 18:24:22",
+          "cancelled_by_lead": "false"
+        }
+      ]
+    }
+  },
+  "transaction": {
+    "api_status": "SUCCESS",
+    "status_code": "200",
+    "key": "BIKER_TRANSACTION_SUCCESS",
+    "message": "Biker transaction history retreived succesfully.",
+    "data": {
+      "transactions": [
+        {
+          "id": 130367,
+          "amount": 30000,
+          "type": "CREDIT",
+          "balanceAfterTransaction": 80000,
+          "externalRefType": "ORDER",
+          "externalRefId": "86261",
+          "comment": "credit for order",
+          "createdAt": "2018-05-28 18:24:22",
+          "updatedAt": "2018-05-28 18:24:22"
+        },
+        {
+          "id": 130366,
+          "amount": 50000,
+          "type": "DEBIT",
+          "balanceAfterTransaction": 50000,
+          "externalRefType": "ORDER_COD_HANDLING",
+          "externalRefId": "86261",
+          "comment": "debit for cash receipt",
+          "createdAt": "2018-05-28 18:24:05",
+          "updatedAt": "2018-05-28 18:24:05"
+        }
+      ]
+    }
   }
 }
